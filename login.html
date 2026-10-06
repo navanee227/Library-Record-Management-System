@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Library Login</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body class="login-page">
+
+<div class="login-box">
+
+    <h1>Library Management System</h1>
+
+    <h3>Login</h3>
+
+    {% if message %}
+
+        <p class="error">{{ message }}</p>
+
+    {% endif %}
+
+    <form method="POST">
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            required
+        >
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+        >
+
+        <div class="captcha">
+
+            CAPTCHA :
+            <b>{{ captcha }}</b>
+
+        </div>
+
+        <input
+            type="text"
+            name="captcha"
+            placeholder="Enter CAPTCHA"
+            required
+        >
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>

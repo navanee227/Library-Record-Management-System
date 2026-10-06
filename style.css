@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+
+/* LOGIN */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-box {
+    background: white;
+    width: 400px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+
+.login-box h1 {
+    color: #174ea6;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #174ea6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #0d47a1;
+}
+
+
+.captcha {
+    background: #e8f0fe;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.error {
+    color: red;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background: #174ea6;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* CONTAINER */
+
+.container {
+    padding: 40px;
+}
+
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+
+.card h2 {
+    color: #174ea6;
+}
+
+
+.card a {
+    color: #174ea6;
+    text-decoration: none;
+}
+
+
+/* ADD BUTTON */
+
+.add-button {
+    display: inline-block;
+    background: #174ea6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+th {
+    background: #174ea6;
+    color: white;
+}
+
+
+.edit {
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.delete {
+    color: red;
+    text-decoration: none;
+}
+
+
+/* FORM */
+
+.form-box {
+    background: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+
+.form-box h1 {
+    text-align: center;
+    color: #174ea6;
+}
